@@ -1,0 +1,23 @@
+Problem Statement- Find the tabel for any number using python code.
+Source of Problem - Unknown(Random)
+
+print("Enter number whose table you want to know")
+N = int(input())
+for i in range(1,11):
+    print(i*N)
+    
+    
+    
+Output -
+ Enter number whose table you want to know
+6
+6
+12
+18
+24
+30
+36
+42
+48
+54
+60
