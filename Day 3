@@ -1,0 +1,33 @@
+# day 3 # Hacker Rank Problem(What's your name)
+def print_full_name(a, b):
+    print("Hello" + " " + a + " " + b + "! You just delved into python.")
+
+if __name__ == '__main__':
+    first_name = input()
+    last_name = input()
+    print_full_name(first_name, last_name)
+    
+    
+ Output -
+ Chetan
+ Gaur
+ Hello Chetan Gaur! You just delved into python.
+ 
+ # day 3 (problem 2)
+ # HackerRank Problem solution( problem mutations)
+def mutate_string(string, position, character):
+    nlist=list(string)
+    nlist[position]=character
+    nstring=''.join(nlist)
+    return nstring
+
+if __name__ == '__main__':
+    s = input()
+    i, c = input().split()
+    s_new = mutate_string(s, int(i), c)
+    print(s_new)
+
+Output-
+chetan
+3 m
+cheman
