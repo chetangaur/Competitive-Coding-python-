@@ -1,0 +1,8 @@
+# Day 5 (HackerRank Problem)
+# Complete the solve function below.
+def solve(s):
+    a=s.split()
+    list1=[]
+    for i in range(0,len(a)):
+        list1.append(a[i].capitalize())
+    return ' '.join(list1)
