@@ -1,0 +1,16 @@
+# day 6
+def split_and_join(line):
+    a=line.split()           # The split function work on string and it can split the string according to the symbol pass as argument in it.
+    a="-".join(a)            # After this split function the string is converted into list
+    return a                 # To convert this list into a string again we use join function.
+
+if __name__ == '__main__':
+    line = input()
+    result = split_and_join(line)
+    print(result)
+    
+    
+ OUTPUT -
+ 
+ my name is chetan bro
+ my-name-is-chetan-bro
