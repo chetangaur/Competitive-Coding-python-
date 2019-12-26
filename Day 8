@@ -1,0 +1,77 @@
+#day8 [21/12/19] (HackerRank Prob - String Validators)
+def newalpha(s):
+    count=0
+    for i in s:
+        if(i.isalpha()==True):
+            print('True')
+            break
+        else:
+            count=count+1
+            if(count==len(s)):
+                print("False")
+def newalphanum(s):
+    count=0
+    for i in s:
+        if(i.isalnum()==True):
+            print('True')
+            break
+        else:
+            count=count+1
+            if(count==len(s)):
+                print("False")
+def newdigit(s):
+    count=0
+    for i in s:
+        if(i.isdigit()==True):
+            print('True')
+            break
+        else:
+            count=count+1
+            if(count==len(s)):
+                print("False")
+def newlower(s):
+    count=0
+    for i in s:
+        if(i.islower()==True):
+            print('True')
+            break
+        else:
+            count=count+1
+            if(count==len(s)):
+                print("False")
+def newupper(s):
+    count=0
+    for i in s:
+        if(i.isupper()==True):
+            print('True')
+            break
+        else:
+            count=count+1
+            if(count==len(s)):
+                print("False")
+            
+    
+
+
+
+
+if __name__ == '__main__':
+    
+    s = input()
+    newalphanum(s)
+    newalpha(s)
+    newdigit(s)
+    newlower(s)
+    newupper(s)
+    
+    
+    
+    
+ OUTPUT
+ 
+ qA2
+True
+True
+True
+True
+True
