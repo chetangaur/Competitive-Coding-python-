@@ -1,0 +1,16 @@
+# day 7(LeetCode 2 sum problem)
+nums=[2,7,11,15]
+List=[]
+target=26
+for i in range(0,len(nums)):
+    for j in range(i+1,len(nums)):
+        if(nums[i]+nums[j]==target):
+            List.append(i)
+            List.append(j)
+        else:
+            continue
+print(List)
+        
+            
+OUTPUT
+[2, 3]
