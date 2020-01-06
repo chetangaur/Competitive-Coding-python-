@@ -1,0 +1,20 @@
+# Day 12
+# Convert a decimal number into binary
+
+n=int(input())
+
+L= []
+str1= ""
+q=n
+while q!=0:
+    r=int(q%2)
+    L.append(r)             # To append a list
+    q=int(q/2)
+print("".join(map(str,L)))  # To convert elements of list into string use map function and then join in string  
+
+
+
+OUTPUT-
+
+13
+1011
