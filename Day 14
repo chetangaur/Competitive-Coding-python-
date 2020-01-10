@@ -1,0 +1,21 @@
+# Day 14
+# Leetcode Problem , To find a given number is palindrome or not.
+a=input()
+count=0
+for i in range(0,(int(len(a)/2)+1)):
+               if(a[i]==a[len(a)-(i+1)]):
+                   count=count+1
+if (count==int(len(a)/2)+1):
+    print("No is palindrome")
+else:
+    print("No is not palindrome")
+                        
+                   
+               
+                   
+OUTPUT
+
+12321
+No is palindrome
+1233
+No is not palindrome
