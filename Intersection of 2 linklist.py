@@ -16,7 +16,7 @@ class Solution:
             tempB=headB
             tempA=tempA.next
         return None"""
-        tempA=headA               # In optimal method 
+        """tempA=headA               # In optimal method 
         tempB=headB
         len1=0
         len2=0
@@ -49,7 +49,20 @@ class Solution:
             else:
                 tempA=tempA.next
                 tempB=tempB.next
-        return None
+        return None"""
+        tempA=headA                                   # same approach as above just code optimize
+        tempB=headB
+        while(tempA!=tempB):
+            if tempA:
+                tempA=tempA.next
+            else:
+                tempA=headB
+            if tempB:
+                tempB=tempB.next
+            else:
+                tempB=headA
+        return tempA
+    
                 
             
         
